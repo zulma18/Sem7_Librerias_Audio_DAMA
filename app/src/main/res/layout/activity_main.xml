@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFEFE"
     android:foregroundTint="#F43F3F"
     tools:context=".MainActivity">
 
@@ -58,6 +59,7 @@
         android:layout_marginTop="64dp"
         android:backgroundTint="#7B1FA2"
         android:text="AUDIO REMOTO"
+        android:textColor="#FAF7F7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imgBoton" />
@@ -69,6 +71,7 @@
         android:layout_marginTop="16dp"
         android:backgroundTint="#7B1FA2"
         android:text="AUDIO LOCAL"
+        android:textColor="#FAF7F7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btnRemoto" />
